@@ -1,0 +1,72 @@
+.App {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  padding: 10px;
+  width: 300px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.search-bar button {
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-bar button:hover {
+  background-color: #0056b3;
+}
+
+.grant-list {
+  margin-bottom: 20px;
+}
+
+.grant-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.grant-list li {
+  margin: 10px 0;
+}
+
+.grant-list a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.grant-list a:hover {
+  text-decoration: underline;
+}
+
+.action-buttons {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px;
+  margin: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
